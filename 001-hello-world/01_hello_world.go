@@ -12,5 +12,9 @@ func main() {
 	}
 }
 func foo() {
-	fmt.Print("foo function was called")
+	fmt.Println("foo function was called")
+	bar()
+}
+func bar() {
+	fmt.Println("i am bar")
 }
